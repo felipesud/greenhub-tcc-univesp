@@ -1,0 +1,456 @@
+/* <style id="applicationStylesheet" type="text/css"> */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Lato:ital,wght@0,300;0,400;1,300;1,400&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap');
+
+	.mediaViewInfo {
+		--web-view-name: Web 1920 – 1;
+		--web-view-id: Web_1920__1;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: Web_1920__1;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Web_1920__1 {
+		position: absolute;
+		width: 1920px;
+		height: 1080px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: Web 1920 – 1;
+		--web-view-id: Web_1920__1;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	@keyframes fadein {
+	
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	
+	}
+	#Grupo_152 {
+		position: absolute;
+		width: 105.504px;
+		height: 105.34px;
+		left: 83px;
+		top: 36.993px;
+		overflow: visible;
+	}
+	#Grupo_144 {
+		position: absolute;
+		width: 105.504px;
+		height: 105.34px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Path_14 {
+		fill: rgba(1,153,97,1);
+	}
+	.Path_14 {
+		overflow: visible;
+		position: absolute;
+		width: 41.285px;
+		height: 26.356px;
+		left: 57.869px;
+		top: 1.145px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_15 {
+		fill: rgba(1,153,97,1);
+	}
+	.Path_15 {
+		overflow: visible;
+		position: absolute;
+		width: 41.285px;
+		height: 26.355px;
+		left: 6.346px;
+		top: 1.146px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_16 {
+		fill: rgba(61,173,92,1);
+	}
+	.Path_16 {
+		overflow: visible;
+		position: absolute;
+		width: 34.248px;
+		height: 26.355px;
+		left: 71.256px;
+		top: 27.506px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_17 {
+		fill: rgba(61,173,92,1);
+	}
+	.Path_17 {
+		overflow: visible;
+		position: absolute;
+		width: 34.247px;
+		height: 26.355px;
+		left: 0px;
+		top: 27.506px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_18 {
+		fill: rgba(121,194,88,1);
+	}
+	.Path_18 {
+		overflow: visible;
+		position: absolute;
+		width: 61.032px;
+		height: 26.355px;
+		left: 0.029px;
+		top: 53.856px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_19 {
+		fill: rgba(121,194,88,1);
+	}
+	.Path_19 {
+		overflow: visible;
+		position: absolute;
+		width: 55.531px;
+		height: 26.355px;
+		left: 49.941px;
+		top: 53.856px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_20 {
+		fill: rgba(181,214,83,1);
+	}
+	.Path_20 {
+		overflow: visible;
+		position: absolute;
+		width: 89.877px;
+		height: 25.129px;
+		left: 7.813px;
+		top: 80.211px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Rectangle_1 {
+		fill: rgba(121,194,88,1);
+	}
+	.Rectangle_1 {
+		position: absolute;
+		overflow: visible;
+		width: 79.636px;
+		height: 26.355px;
+		left: 10.259px;
+		top: 53.856px;
+	}
+	#Rectangle_2 {
+		fill: rgba(61,173,92,1);
+	}
+	.Rectangle_2 {
+		position: absolute;
+		overflow: visible;
+		width: 79.636px;
+		height: 26.355px;
+		left: 14.718px;
+		top: 27.501px;
+	}
+	#Caminho_112 {
+		fill: rgba(1,153,97,1);
+	}
+	.Caminho_112 {
+		overflow: visible;
+		position: absolute;
+		width: 53.479px;
+		height: 27.564px;
+		left: 26.358px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Caminho_113 {
+		fill: rgba(255,255,255,1);
+	}
+	.Caminho_113 {
+		overflow: visible;
+		position: absolute;
+		width: 50.122px;
+		height: 50.285px;
+		left: 26.358px;
+		top: 29.926px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Grupo_19 {
+		position: absolute;
+		width: 1092.363px;
+		height: 985.729px;
+		left: 829.273px;
+		top: -0.45px;
+		overflow: visible;
+	}
+	#Grupo_17 {
+		position: absolute;
+		width: 1036.756px;
+		height: 985.729px;
+		left: 55.607px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Grupo_16 {
+		position: absolute;
+		width: 1036.756px; /*1036.756*/
+		height: 985.729px;
+		left: -150px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Caminho_57_ {
+		fill: url(#Caminho_57_);
+	}
+	.Caminho_57_ {
+		overflow: visible;
+		position: absolute;
+		width: 191.183px;
+		height: 294.289px;
+		left: 0px;
+		top: 341.562px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Grupo_18 {
+		position: absolute;
+		width: 339.25px;
+		height: 574.599px;
+		left: 425.562px;
+		top: 401.996px;
+		overflow: visible;
+	}
+	#Caminho_58_ {
+		fill: url(#Caminho_58_);
+	}
+	.Caminho_58_ {
+		overflow: visible;
+		position: absolute;
+		width: 339.25px;
+		height: 574.599px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Elipse_8 {
+		fill: rgba(181,214,83,1);
+	}
+	.Elipse_8 {
+		position: absolute;
+		overflow: visible;
+		width: 41px;
+		height: 41px;
+		left: 872px;
+		top: 193px;
+	}
+	#Elipse_9 {
+		fill: rgba(181,214,83,1);
+	}
+	.Elipse_9 {
+		position: absolute;
+		overflow: visible;
+		width: 41px;
+		height: 41px;
+		left: 1005px;
+		top: 850px;
+	}
+	#Elipse_19 {
+		opacity: 0.5;
+		fill: rgba(1,153,97,1);
+	}
+	.Elipse_19 {
+		position: absolute;
+		overflow: visible;
+		width: 59px;
+		height: 59px;
+		left: 700px;
+		top: 193px;
+	}
+	#Grupo_54 {
+		position: absolute;
+		width: 534.025px;
+		height: 65.667px;
+		left: 1329.429px;
+		top: 36.993px;
+		overflow: visible;
+	}
+	#Grupo_53 {
+		position: absolute;
+		width: 534.024px;
+		height: 65.667px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Retngulo_18 {
+		fill: rgba(126,188,107,1);
+	}
+	.Retngulo_18 {
+		filter: drop-shadow(0px 0px 40px rgba(49, 169, 93, 0.2));
+		position: absolute;
+		overflow: visible;
+		width: 654.024px; /*654.024*/
+		height: 185.667px;
+		left: -480px;
+		top: 0px;
+	}
+	#GREENHUB {
+		left: 199px;
+		top: 54px;
+		position: absolute;
+		overflow: visible;
+		width: 242px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI, 'Lato';
+		font-style: normal;
+		font-weight: bold;
+		font-size: 47px;
+		color: rgba(46,45,53,1);
+	}
+	#Prticas_sustentveis__para_um_m {
+		left: 81px;
+		top: 341.581px;
+		position: absolute;
+		overflow: visible;
+		width: 704px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 57px;
+		color: rgba(46,45,53,1);
+	}
+	#A_sustentabilidade__um_tema_de {
+		left: 83px;
+		top: 551.581px;
+		position: absolute;
+		overflow: visible;
+		width: 699px;
+		height: 227px;
+		line-height: 45px;
+		margin-top: -11.5px;
+		text-align: left;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 22px;
+		color: rgba(46,45,53,1);
+	}
+	#Componente_1__1 {
+		position: absolute;
+		width: 257.18px;
+		height: 80.374px;
+		left: 81.084px;
+		top: 810.626px;
+		overflow: visible;
+		--web-animation: fadein 0.30000001192092896s ease-out;
+		--web-action-type: page;
+		--web-action-target: Web_1920___2.html;
+		cursor: pointer;
+	}
+	#Retngulo_3_bh {
+		fill: url(#Retngulo_3_bh);
+	}
+	.Retngulo_3_bh {
+		position: absolute;
+		overflow: visible;
+		width: 257.18px;
+		height: 80.374px;
+		left: 0px;
+		top: 0px;
+	}
+	#COMECE_AGORA {
+		left: 23.916px;
+		top: 25.956px;
+		position: absolute;
+		overflow: visible;
+		width: 207px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 24px;
+		color: rgba(255,255,255,1);
+	}
+	#HOME {
+		left: 899px;
+		top: 54px;
+		position: absolute;
+		overflow: visible;
+		width: 80px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		color: rgba(255,255,255,1);
+	}
+	#SAIBA_MAIS {
+		left:  1200px;
+		top: 54px;
+		position: absolute;
+		overflow: visible;
+		width: 142px;
+		white-space: nowrap;
+		transition: all 0.30000001192092896s ease-out;
+		--web-animation: fadein 0.30000001192092896s ease-out;
+		--web-action-type: page;
+		--web-action-target: Web_1920___7.html;
+		cursor: pointer;
+		text-align: left;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 24px;
+		color: rgba(255,255,255,1);
+	}
+	#RANKING {
+		left: 1031px;
+		top: 54px;
+		position: absolute;
+		overflow: visible;
+		width: 117px;
+		white-space: nowrap;
+		transition: all 0.30000001192092896s ease-out;
+		--web-animation: fadein 0.30000001192092896s ease-out;
+		--web-action-type: page;
+		--web-action-target: Web_1920___3.html;
+		cursor: pointer;
+		text-align: left;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 24px;
+		color: rgba(255,255,255,1);
+	}
+
+	#HOME :hover {
+		background-color: rgba(49, 169, 93, 0.2);
+		width: 160px;
+		font-size: 30px;
+		top: 20px;
+	}
+
+	#SAIBA_MAIS :hover {
+		background-color: rgba(49, 169, 93, 0.2);
+		width: 160px;
+		font-size: 30px;
+	}
+
+	#RANKING:hover {
+		background-color: rgba(49, 169, 93, 0.2);
+		width: 160px;
+		font-size: 30px;
+	}
+/* </style> */

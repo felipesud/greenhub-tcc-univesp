@@ -1,0 +1,844 @@
+/* <style id="applicationStylesheet" type="text/css"> */
+	
+	@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Lato:ital,wght@0,300;0,400;1,300;1,400&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap');
+	.mediaViewInfo {
+		--web-view-name: Web 1920 – 4;
+		--web-view-id: Web_1920__4;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: Web_1920__4;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Web_1920__4 {
+		position: absolute;
+		width: 1920px;
+		height: 1080px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: Web 1920 – 4;
+		--web-view-id: Web_1920__4;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	@keyframes fadein {
+	
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	
+	}
+	
+	
+	
+	
+	#Search_t {
+		position: absolute;
+		width: 33.799px;
+		height: 35.417px;
+		left: 1794px;
+		top: 70px;
+		overflow: visible;
+	}
+	#Retngulo_2088_t {
+		fill: transparent;
+		stroke: rgba(43,43,43,1);
+		stroke-width: 4px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Retngulo_2088_t {
+		position: absolute;
+		overflow: visible;
+		width: 31px;
+		height: 30px;
+		left: 0px;
+		top: 0px;
+	}
+	#Linha_4_t {
+		fill: transparent;
+		stroke: rgba(43,43,43,1);
+		stroke-width: 4px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Linha_4_t {
+		overflow: visible;
+		position: absolute;
+		width: 14.945px;
+		height: 14.945px;
+		left: 24.51px;
+		top: 26.128px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Right_t {
+		position: absolute;
+		width: 366px;
+		height: 867px;
+		left: 1512px;
+		top: 143px;
+		overflow: visible;
+	}
+	#Right_Bar_t {
+		fill: rgba(255,255,255,1);
+	}
+	.Right_Bar_t {
+		position: absolute;
+		overflow: visible;
+		width: 366px;
+		height: 867px;
+		left: 0px;
+		top: 0px;
+	}
+	#ATIVIDADE_t {
+		left: 32px;
+		top: 496px;
+		position: absolute;
+		overflow: visible;
+		width: 97px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Rift;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 29px;
+		color: rgba(44,44,44,1);
+	}
+	#Profile_t {
+		position: absolute;
+		width: 356px;
+		height: 451px;
+		left: 7px;
+		top: 0px;
+		overflow: visible;
+		padding: 60px 32px 40px 32px;
+	}
+	#Retngulo_1539_t {
+		fill: rgba(255,255,255,1);
+	}
+	.Retngulo_1539_t {
+		filter: drop-shadow(0px 13px 25px rgba(196, 220, 235, 0.455));
+		position: absolute;
+		overflow: visible;
+		width: 431px;
+		height: 526px;
+		left: 0px;
+		top: 0px;
+	}
+	#COMPANY_NAME_t {
+		left: 77px;
+		top: 239px;
+		position: absolute;
+		overflow: visible;
+		width: 179px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Rift;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 34px;
+		color: rgba(44,44,44,1);
+	}
+	#Empresa {
+		opacity: 0.5;
+		left: 133px;
+		top: 278px;
+		position: absolute;
+		overflow: visible;
+		width: 69px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Sofia Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(44,44,44,1);
+	}
+	#Followers_ua {
+		position: absolute;
+		width: 88px;
+		height: 54px;
+		left: 125px;
+		top: 357px;
+		overflow: visible;
+	}
+	#n_4K_ub {
+		left: 29px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 39px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Rift;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 29px;
+		color: rgba(44,44,44,1);
+	}
+	#Seguidores_uc {
+		opacity: 0.5;
+		left: 0px;
+		top: 30px;
+		position: absolute;
+		overflow: visible;
+		width: 89px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Sofia Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(44,44,44,1);
+	}
+	#Follows_ud {
+		position: absolute;
+		width: 66px;
+		height: 54px;
+		left: 258px;
+		top: 357px;
+		overflow: visible;
+	}
+	#n_39_ue {
+		left: 16px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 37px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Rift;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 30px;
+		color: rgba(44,44,44,1);
+	}
+	#A_Seguir_uf {
+		opacity: 0.5;
+		left: 0px;
+		top: 30px;
+		position: absolute;
+		overflow: visible;
+		width: 67px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Sofia Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(44,44,44,1);
+	}
+	#Photos_ug {
+		position: absolute;
+		width: 44px;
+		height: 54px;
+		left: 32px;
+		top: 357px;
+		overflow: visible;
+	}
+	#n_30_uh {
+		left: 4px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 39px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Rift;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 30px;
+		color: rgba(44,44,44,1);
+	}
+	#Fotos_ui {
+		opacity: 0.5;
+		left: 0px;
+		top: 30px;
+		position: absolute;
+		overflow: visible;
+		width: 45px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Sofia Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(44,44,44,1);
+	}
+	#DSC07158_uj {
+		position: absolute;
+		width: 163px;
+		height: 164px;
+		left: 95px;
+		top: 60px;
+		overflow: visible;
+	}
+	#Linha_3 {
+		fill: transparent;
+		stroke: rgba(233,238,247,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Linha_3 {
+		overflow: visible;
+		position: absolute;
+		width: 94.215px;
+		height: 1px;
+		left: 130.134px;
+		top: 330.161px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Comments_ul {
+		position: absolute;
+		width: 286px;
+		height: 273px;
+		left: 32px;
+		top: 565px;
+		overflow: hidden;
+	}
+	#Group_um {
+		position: absolute;
+		width: 303px;
+		height: 64px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#AdobeStock_72389795_un {
+		position: absolute;
+		width: 64px;
+		height: 64px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Amei_a_Iniciativa_uo {
+		left: 77px;
+		top: 5px;
+		position: absolute;
+		overflow: visible;
+		width: 227px;
+		height: 27px;
+		text-align: left;
+		font-family: Avenir Next;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(62,62,62,1);
+	}
+	#n_7_de_Outubro_2022__9_AM_up {
+		left: 77px;
+		top: 34px;
+		position: absolute;
+		overflow: visible;
+		width: 209px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Avenir Next;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 17px;
+		color: rgba(114,114,114,1);
+	}
+	#Group_uq {
+		position: absolute;
+		width: 303px;
+		height: 64px;
+		left: 0px;
+		top: 102px;
+		overflow: visible;
+	}
+	#AdobeStock_72389795_ur {
+		position: absolute;
+		width: 64px;
+		height: 64px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Precisamos_de_mais_empresas_as_us {
+		left: 77px;
+		top: 5px;
+		position: absolute;
+		overflow: hidden;
+		width: 227px;
+		height: 27px;
+		text-align: left;
+		font-family: Avenir Next;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(62,62,62,1);
+	}
+	#n_1_de_Outubro_2022__8_AM_ut {
+		left: 77px;
+		top: 34px;
+		position: absolute;
+		overflow: visible;
+		width: 209px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Avenir Next;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 17px;
+		color: rgba(114,114,114,1);
+	}
+	#Group_uu {
+		position: absolute;
+		width: 303px;
+		height: 64px;
+		left: 0px;
+		top: 204px;
+		overflow: visible;
+	}
+	#AdobeStock_72389795_uv {
+		position: absolute;
+		width: 64px;
+		height: 64px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Exemplo_para_outras_empresas_uw {
+		left: 77px;
+		top: 5px;
+		position: absolute;
+		overflow: hidden;
+		width: 227px;
+		height: 27px;
+		text-align: left;
+		font-family: Avenir Next;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(62,62,62,1);
+	}
+	#n_4_de_Outubro_2022__11_PM_ux {
+		left: 77px;
+		top: 34px;
+		position: absolute;
+		overflow: visible;
+		width: 217px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Avenir Next;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 17px;
+		color: rgba(114,114,114,1);
+	}
+	#Grupo_155 {
+		position: absolute;
+		width: 282px;
+		height: 83.511px;
+		left: 819px;
+		top: 28.245px;
+		overflow: visible;
+		transition: all 0.30000001192092896s ease-out;
+		--web-animation: fadein 0.30000001192092896s ease-out;
+		--web-action-type: page;
+		--web-action-target: Web_1920___1.html;
+		cursor: pointer;
+	}
+	#Grupo_152_uz {
+		position: absolute;
+		width: 83.641px;
+		height: 83.511px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Grupo_144_u {
+		position: absolute;
+		width: 83.641px;
+		height: 83.511px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Path_14_u {
+		fill: rgba(1,153,97,1);
+	}
+	.Path_14_u {
+		overflow: visible;
+		position: absolute;
+		width: 32.729px;
+		height: 20.894px;
+		left: 45.877px;
+		top: 0.908px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_15_u {
+		fill: rgba(1,153,97,1);
+	}
+	.Path_15_u {
+		overflow: visible;
+		position: absolute;
+		width: 32.729px;
+		height: 20.893px;
+		left: 5.031px;
+		top: 0.909px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_16_u {
+		fill: rgba(61,173,92,1);
+	}
+	.Path_16_u {
+		overflow: visible;
+		position: absolute;
+		width: 27.151px;
+		height: 20.894px;
+		left: 56.49px;
+		top: 21.806px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_17_u {
+		fill: rgba(61,173,92,1);
+	}
+	.Path_17_u {
+		overflow: visible;
+		position: absolute;
+		width: 27.15px;
+		height: 20.894px;
+		left: 0px;
+		top: 21.806px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_18_u {
+		fill: rgba(121,194,88,1);
+	}
+	.Path_18_u {
+		overflow: visible;
+		position: absolute;
+		width: 48.384px;
+		height: 20.893px;
+		left: 0.023px;
+		top: 42.696px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_19_u {
+		fill: rgba(121,194,88,1);
+	}
+	.Path_19_u {
+		overflow: visible;
+		position: absolute;
+		width: 44.023px;
+		height: 20.893px;
+		left: 39.592px;
+		top: 42.696px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_20_u {
+		fill: rgba(181,214,83,1);
+	}
+	.Path_20_u {
+		overflow: visible;
+		position: absolute;
+		width: 71.252px;
+		height: 19.922px;
+		left: 6.194px;
+		top: 63.589px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Rectangle_1_u {
+		fill: rgba(121,194,88,1);
+	}
+	.Rectangle_1_u {
+		position: absolute;
+		overflow: visible;
+		width: 63.133px;
+		height: 20.894px;
+		left: 8.133px;
+		top: 42.695px;
+	}
+	#Rectangle_2_u {
+		fill: rgba(61,173,92,1);
+	}
+	.Rectangle_2_u {
+		position: absolute;
+		overflow: visible;
+		width: 63.133px;
+		height: 20.894px;
+		left: 11.668px;
+		top: 21.802px;
+	}
+	#Caminho_112_va {
+		fill: rgba(1,153,97,1);
+	}
+	.Caminho_112_va {
+		overflow: visible;
+		position: absolute;
+		width: 42.396px;
+		height: 21.852px;
+		left: 20.896px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Caminho_113_vb {
+		fill: rgba(255,255,255,1);
+	}
+	.Caminho_113_vb {
+		overflow: visible;
+		position: absolute;
+		width: 39.735px;
+		height: 39.864px;
+		left: 20.896px;
+		top: 23.724px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#GREENHUB_vc {
+		left: 92px;
+		top: 13.092px;
+		position: absolute;
+		overflow: visible;
+		width: 191px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: 'Lato';
+		font-style: normal;
+		font-weight: bold;
+		font-size: 37px;
+		color: rgba(46,45,53,1);
+	}
+	#Imagem_1 {
+		position: absolute;
+		width: 1308px;
+		height: 867px;
+		left: 187px;
+		top: 145px;
+		overflow: visible;
+	}
+	#Nav_ve {
+		position: absolute;
+		width: 140px;
+		height: 1022px;
+		left: 27px;
+		top: 26px;
+		overflow: visible;
+	}
+	#Nav_vf {
+		position: absolute;
+		width: 140px;
+		height: 1022px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Dashboard_vg {
+		position: absolute;
+		width: 32.993px;
+		height: 32.999px;
+		left: 78.953px;
+		top: 235.92px;
+		overflow: visible;
+		--web-animation: fadein undefineds undefined;
+		--web-action-type: page;
+		--web-action-target: Web_1920___2.html;
+		cursor: pointer;
+	}
+	#Caminho_360_vh {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Caminho_360_vh {
+		overflow: visible;
+		position: absolute;
+		width: 14.3px;
+		height: 18.7px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Caminho_361_vi {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Caminho_361_vi {
+		overflow: visible;
+		position: absolute;
+		width: 14.3px;
+		height: 9.9px;
+		left: 18.694px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Caminho_362_vj {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Caminho_362_vj {
+		overflow: visible;
+		position: absolute;
+		width: 14.3px;
+		height: 9.9px;
+		left: 0px;
+		top: 23.099px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Caminho_363_vk {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Caminho_363_vk {
+		overflow: visible;
+		position: absolute;
+		width: 14.3px;
+		height: 18.7px;
+		left: 18.694px;
+		top: 14.3px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Activity_vl {
+		position: absolute;
+		width: 32.993px;
+		height: 22.254px;
+		left: 80.054px;
+		top: 382.678px;
+		overflow: visible;
+		--web-animation: fadein undefineds undefined;
+		--web-action-type: page;
+		--web-action-target: Web_1920___3.html;
+		cursor: pointer;
+	}
+	#Caminho_364_vm {
+		fill: rgba(255,255,255,1);
+	}
+	.Caminho_364_vm {
+		overflow: visible;
+		position: absolute;
+		width: 32.993px;
+		height: 22.254px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Settings_vn {
+		position: absolute;
+		width: 30.652px;
+		height: 30.652px;
+		left: 82.824px;
+		top: 809.021px;
+		overflow: visible;
+	}
+	#Caminho_387_vo {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: round;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Caminho_387_vo {
+		overflow: visible;
+		position: absolute;
+		width: 11.36px;
+		height: 11.36px;
+		left: 11.146px;
+		top: 11.146px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Caminho_388_vp {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: round;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Caminho_388_vp {
+		overflow: visible;
+		position: absolute;
+		width: 33.652px;
+		height: 33.652px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Bell_vq {
+		position: absolute;
+		width: 29.723px;
+		height: 33.02px;
+		left: 83.66px;
+		top: 662.262px;
+		overflow: visible;
+		--web-animation: fadein undefineds undefined;
+		--web-action-type: page;
+		--web-action-target: Web_1920___5.html;
+		cursor: pointer;
+	}
+	#Caminho_385_vr {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: round;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Caminho_385_vr {
+		overflow: visible;
+		position: absolute;
+		width: 32.723px;
+		height: 27.769px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Caminho_386_vs {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: round;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Caminho_386_vs {
+		overflow: visible;
+		position: absolute;
+		width: 9.813px;
+		height: 5.196px;
+		left: 12.005px;
+		top: 31.375px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+/* </style> */
